@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Данные админа по умолчанию (в идеале задать через переменные окружения на сервере)
 const ADMIN_LOGIN = (process.env.ADMIN_LOGIN || 'admin').trim().toLowerCase();
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin12345';
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || '111111';
 const SESSION_DAYS = 90; // Сколько живет сессия (в днях)
 
 // Подключаем встроенную базу данных SQLite
