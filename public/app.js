@@ -157,7 +157,7 @@ function renderApp() {
 
   root.innerHTML = `
     <header class="top">
-      <div class="brand">Платформа<span>Учёба</span></div>
+      <div class="brand">NBBS<span>Семинария</span></div>
       <div class="me">
         <span class="me-name">${esc(S.user.name)}</span>
         <span class="role role-${S.user.role}">${roleLabel}</span>
